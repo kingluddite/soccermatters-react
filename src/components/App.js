@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { ListGroup } from 'reactstrap';
 import Header from './Header';
 import Nav from './MainNav';
 import Roster from './Roster';
 import Player from './Player';
-
+import UserList from './UserList';
+import { fetchUsers } from '../actions/userActions';
 import samplePlayers from '../sample-player-data';
 
-class App extends Component {
+@connect((store) => {
+	return {
+		users: store.users.users
+	}
+})
 
+class App extends Component {
+    componentWillMount() {
+      this.props.dispatch(fetchUsers());
+    }
     constructor() {
       super();
       this.addPlayer = this.addPlayer.bind(this);
@@ -59,6 +69,7 @@ class App extends Component {
                 <Nav />
                 <div className="row">
                     <div className="col">
+                        <UserList users={this.props.users}/>
                         <Roster
                           addPlayer={this.addPlayer} loadSamples={this.loadSamples}
                           addSeason={this.addSeason}
