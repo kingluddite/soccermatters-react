@@ -7,7 +7,8 @@ const players = {
    firstName : "Philip",
    imageURL : "https://randomuser.me/api/portraits/men/83.jpg",
    lastName : "Nguyen",
-   status : "injured"
+   status : "inactive",
+   jerseyNumber : 1
  },
  player02 : {
    comments : "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -17,7 +18,8 @@ const players = {
    firstName : "Walter",
    imageURL : "https://randomuser.me/api/portraits/men/71.jpg",
    lastName : "Hicks",
-   status : "injured"
+   status : "inactive",
+   jerseyNumber : 10
  },
  player03 : {
    comments : "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -27,7 +29,8 @@ const players = {
    firstName : "Roy",
    imageURL : "https://randomuser.me/api/portraits/men/72.jpg",
    lastName : "Morales",
-   status : "injured"
+   status : "inactive",
+   jerseyNumber : 16
  },
  player04 : {
    comments : "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
@@ -37,7 +40,8 @@ const players = {
    firstName : "Bobby",
    imageURL : "https://randomuser.me/api/portraits/men/22.jpg",
    lastName : "Austin",
-   status : "active"
+   status : "active",
+   jerseyNumber : 15
  },
  player05 : {
    comments : "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -47,7 +51,8 @@ const players = {
    firstName : "Jason",
    imageURL : "https://randomuser.me/api/portraits/men/37.jpg",
    lastName : "Garrett",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 3
  },
  player06 : {
    comments : "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus",
@@ -57,7 +62,8 @@ const players = {
    firstName : "Frank",
    imageURL : "https://randomuser.me/api/portraits/men/86.jpg",
    lastName : "Ramirez",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 5
  },
  player07 : {
    comments : "Sed ante. Vivamus tortor. Duis mattis egestas metus",
@@ -67,7 +73,8 @@ const players = {
    firstName : "Terry",
    imageURL : "https://randomuser.me/api/portraits/men/84.jpg",
    lastName : "Gilbert",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 21
  },
  player08 : {
    comments : "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -77,7 +84,8 @@ const players = {
    firstName : "Barbara",
    imageURL : "https://randomuser.me/api/portraits/men/47.jpg",
    lastName : "Medina",
-   status : "active"
+   status : "active",
+   jerseyNumber : 99
  },
  player09 : {
    comments : "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa",
@@ -87,7 +95,8 @@ const players = {
    firstName : "Raymond",
    imageURL : "https://randomuser.me/api/portraits/men/58.jpg",
    lastName : "Woods",
-   status : "active"
+   status : "active",
+   jerseyNumber : 14
  },
  player10 : {
    comments : "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis",
@@ -97,7 +106,8 @@ const players = {
    firstName : "Deborah",
    imageURL : "https://randomuser.me/api/portraits/men/8.jpg",
    lastName : "Kelly",
-   status : "active"
+   status : "active",
+   jerseyNumber : 7
  },
  player11 : {
    comments : "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -107,7 +117,8 @@ const players = {
    firstName : "Russell",
    imageURL : "https://randomuser.me/api/portraits/men/89.jpg",
    lastName : "Olson",
-   status : "active"
+   status : "active",
+   jerseyNumber : 11
  },
  player12 : {
    comments : "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -117,7 +128,8 @@ const players = {
    firstName : "Laura",
    imageURL : "https://randomuser.me/api/portraits/men/19.jpg",
    lastName : "Phillips",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 18
  },
  player13 : {
    comments : "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
@@ -127,7 +139,8 @@ const players = {
    firstName : "Alan",
    imageURL : "https://randomuser.me/api/portraits/men/42.jpg",
    lastName : "Martin",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 19
  },
  player14 : {
    comments : "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
@@ -137,7 +150,8 @@ const players = {
    firstName : "Emily",
    imageURL : "https://randomuser.me/api/portraits/men/10.jpg",
    lastName : "Brooks",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 17
  },
  player15 : {
    comments : "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
@@ -147,7 +161,8 @@ const players = {
    firstName : "Judith",
    imageURL : "https://randomuser.me/api/portraits/men/4.jpg",
    lastName : "Carroll",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 16
  },
  player16 : {
    comments : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -157,7 +172,8 @@ const players = {
    firstName : "Mildred",
    imageURL : "https://randomuser.me/api/portraits/men/67.jpg",
    lastName : "Harvey",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 2
  },
  player17 : {
    comments : "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus",
@@ -167,7 +183,8 @@ const players = {
    firstName : "Jessica",
    imageURL : "https://randomuser.me/api/portraits/men/9.jpg",
    lastName : "Harper",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 33
  },
  player18 : {
    comments : "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -177,7 +194,8 @@ const players = {
    firstName : "Beverly",
    imageURL : "https://randomuser.me/api/portraits/men/73.jpg",
    lastName : "Diaz",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 44
  },
  player19 : {
    comments : "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
@@ -187,7 +205,8 @@ const players = {
    firstName : "Ruth",
    imageURL : "https://randomuser.me/api/portraits/men/0.jpg",
    lastName : "Tucker",
-   status : "injured"
+   status : "active",
+   jerseyNumber : 45
  },
  player20 : {
    comments : "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -197,9 +216,9 @@ const players = {
    firstName : "Douglas",
    imageURL : "https://randomuser.me/api/portraits/men/21.jpg",
    lastName : "Murphy",
-   status : "active"
+   status : "active",
+   jerseyNumber : 46
  }
 }
 
 export default players;
-```
